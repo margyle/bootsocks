@@ -6,7 +6,7 @@ include 'inc/con.php';
 $id = $_GET['id'];
 //create a random key
 $length = 10;
-$session = substr(str_shuffle("0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"), 0, $length);
+$session = substr(str_shuffle("0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNPQRSTUVWXYZ"), 0, $length);
 //call the api include file
 require('ColourLovers.php');
 //set a new request
